@@ -4,6 +4,8 @@ import plotly.express as px
 import time
 import platform
 import pathlib
+temp = pathlib.PosixPath
+pathlib.PosixPath = pathlib.WindowsPath
 
 # TITLE
 st.title("I KNOW EVERYONE CAN FIND IF THE HORSE PIC WILL BE SHOWN !\n IT IS JUST MODEL FOR FUN :> ")
