@@ -5,7 +5,7 @@ import time
 import platform
 import pathlib
 temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+pathlib.PosixPath = temp
 
 
 # TITLE
