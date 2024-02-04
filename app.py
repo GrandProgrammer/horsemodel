@@ -4,8 +4,8 @@ import plotly.express as px
 import time
 import platform
 import pathlib
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+plt = platform.system()
+if plt == 'Linux': pathlib.PosixPath = pathlib.WindowsPath
 
 
 # TITLE
