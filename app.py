@@ -4,9 +4,9 @@ import plotly.express as px
 import time
 import platform
 import pathlib
-plt = platform.system() 
-if plt == 'Linux': 
-    pathlib.WindowsPath = pathlib.PosixPath
+# plt = platform.system() 
+# if plt == 'Linux': 
+#     pathlib.WindowsPath = pathlib.PosixPath
 
 # TITLE
 st.title("I KNOW EVERYONE CAN FIND IF THE HORSE PIC WILL BE SHOWN !\n IT IS JUST MODEL FOR FUN :> ")
