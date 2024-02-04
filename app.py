@@ -4,7 +4,6 @@ import plotly.express as px
 import time
 import platform
 import pathlib
-posix_backup = pathlib.PosixPath
 try:
     pathlib.PosixPath = pathlib.WindowsPath
     learn_inf = load_learner("horse_model.pkl")
