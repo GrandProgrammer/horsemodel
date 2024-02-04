@@ -4,11 +4,7 @@ import plotly.express as px
 import time
 import platform
 import pathlib
-try:
-    pathlib.PosixPath = pathlib.WindowsPath
-    model = load_learner("horse_model.pkl")
-finally:
-    pathlib.PosixPath = posix_backup
+
 # TITLE
 st.title("I KNOW EVERYONE CAN FIND IF THE HORSE PIC WILL BE SHOWN !\n IT IS JUST MODEL FOR FUN :> ")
 
