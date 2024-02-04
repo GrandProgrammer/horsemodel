@@ -6,7 +6,7 @@ import platform
 import pathlib
 try:
     pathlib.PosixPath = pathlib.WindowsPath
-    learn_inf = load_learner("horse_model.pkl")
+    model = load_learner("horse_model.pkl")
 finally:
     pathlib.PosixPath = posix_backup
 # TITLE
